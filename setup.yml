@@ -11,4 +11,4 @@
       
   - name: ausgeben
     debug:
-      msg: {{ testvar }}
+      msg: '{{ testvar }}'
