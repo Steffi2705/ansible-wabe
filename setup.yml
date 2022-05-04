@@ -13,7 +13,7 @@
   - name: schleife
     debug: 
       msg: "Hallo {{ item }}"
-      loop:
-        - horst
-        - anna
+    loop:
+      - horst
+      - anna
    
