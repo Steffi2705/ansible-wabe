@@ -11,7 +11,5 @@
       
   - name: Create an insecure file
     file:
-      path: /home/hv11134/test
-      owner: root
-      group: root
-      mode: '1777'
+      path: /home/hv11134/test.txt
+      state: touch
