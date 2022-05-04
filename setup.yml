@@ -9,6 +9,10 @@
     debug:
       msg: "Hello Steffi!" 
       
-  - name: ausgeben
-    debug:
-      msg: '{{ testvar }} | upper'
+      
+  - name: schleife
+    debug: "Hallo {{ name }}"
+      loop:
+        - horst
+        - anna
+   
