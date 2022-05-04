@@ -9,7 +9,6 @@
     debug:
       msg: "Hello Steffi!" 
       
-  - name: Create an insecure file
-    file:
-      path: /home/hv11134/test.txt
-      state: touch
+  - name: ausgeben
+    debug:
+      {{ testvar }}
